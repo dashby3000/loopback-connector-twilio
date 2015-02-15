@@ -18,7 +18,6 @@
     "mBaaS"
   ],
   "dependencies": {
-    "assert": "^1.3.0",
     "twilio": "^1.10.0"
   },
   "devDependencies": {},
