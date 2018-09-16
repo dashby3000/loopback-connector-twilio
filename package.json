@@ -18,7 +18,7 @@
     "mBaaS"
   ],
   "dependencies": {
-    "twilio": "^1.10.0"
+    "twilio": "^3.19.2"
   },
   "devDependencies": {},
   "scripts": {
