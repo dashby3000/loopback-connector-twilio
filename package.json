@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-twilio",
-  "version": "0.5.1",
+  "version": "1.0.0",
   "description": "LoopBack connector for Twilio",
   "main": "index.js",
   "homepage": "http://loopback.io",
@@ -18,7 +18,7 @@
     "mBaaS"
   ],
   "dependencies": {
-    "twilio": "^1.10.0"
+    "twilio": "^3.27.1"
   },
   "devDependencies": {},
   "scripts": {
