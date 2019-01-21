@@ -14,7 +14,7 @@ The connector support the following aspects of the [Twilio REST API](http://www.
 
 In your LoopBack project:
     
-    $ npm install loopback-connector-twilio
+    $ npm install --save loopback-connector-twilio
 
 ## Using the Connector
 To use the connector, define the datasource using the connector in your `datasources.json` file:
