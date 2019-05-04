@@ -1,7 +1,7 @@
 {
   "name": "loopback-connector-twilio",
-  "version": "1.0.0",
-  "description": "LoopBack connector for Twilio",
+  "version": "2.0.0",
+  "description": "LoopBack connector for Twilio & SendGrid",
   "main": "index.js",
   "homepage": "http://loopback.io",
   "keywords": [
@@ -12,23 +12,34 @@
     "expess",
     "loopback",
     "twilio",
+    "sendgrid",
     "StrongLoop",
+    "IBM",
     "framework",
     "mobile",
     "mBaaS"
   ],
   "dependencies": {
-    "twilio": "^3.27.1"
+    "twilio": "^3.27.1",
+    "@sendgrid/mail": "^6.3.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dennis W. Ashby",
-  "license": {
-    "name": "MIT",
-    "url": "https://github.com/dashby3000/loopback-connector-twilio/blob/master/LICENSE"
+  "author": {
+    "name": "Dennis Ashby",
+    "email": "dennis.ashby@us.ibm.com",
+    "url": "http://loopback.io"
   },
+  "contributors": [
+    {
+      "name": "Jamil Spain",
+      "email": "jamil.spain@us.ibm.com",
+      "url": "http://loopback.io"
+    }
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/dashby3000/loopback-connector-twilio"

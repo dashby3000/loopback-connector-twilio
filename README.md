@@ -42,24 +42,35 @@ Now, using the created model, you can send an SMS or make a call using the `send
 ### Sending a SMS
     {
         type: 'sms',
-        to: 'YOUR_TWILIO_PHONE_NUMBER',
-        from: 'TARGET_PHONE_NUMBER',
+        to: 'TARGET_PHONE_NUMBER',
+        from: 'YOUR_TWILIO_PHONE_NUMBER',
         body: 'TEXT_MESSAGE'
     }
 
 ### Making a Call
     {
         type: 'call',
-        to: 'YOUR_TWILIO_PHONE_NUMBER',
-        from: 'TARGET_PHONE_NUMBER',
+        to: 'TARGET_PHONE_NUMBER',
+        from: 'YOUR_TWILIO_PHONE_NUMBER',
         url: 'URL_TO_TwiMIL_FILE'
     }
-    
+   
+### Sending an Email
+    {
+        type: 'email',
+        to: 'TARGET_EMAIL',
+        from: 'YOUR_EMAIL',
+        subject: 'EMAIL SUBJECT',
+        text: 'EMAIL BODY AS PLAIN TEXT',
+        html: 'EMAIL BODY AS HTML'
+    }
+        
 ## Running the Example
 To run the example in the `/example/example.js` directory, you must set the following values in the file:
 
     var SID = 'YOUR_TWILIO_ACCOUNT_SID';
     var TOKEN = 'YOUR_TWILIO_ACCOUNT_TOKEN';
+    var SGAPIKEY = 'YOUR_TWILIO_SENDGRIO_API_KEY';
     var TO = 'YOUR_TWILIO_TELEPHONE_NUMBER';
     var FROM = 'TARGET_PHONE_NUMBER';
 
@@ -74,7 +85,7 @@ Finally, run the example app using the following command from the `/loopback-con
 **NOTE**: The `url` property points to an XML file that specifies a [TwiMIL](http://www.twilio.com/docs/api/twiml) command.
 
 ### Version
-0.5.0
+2.0.0
 
 License
 ----
